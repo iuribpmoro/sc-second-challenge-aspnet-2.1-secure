@@ -1,0 +1,19 @@
+# ------------------------------ Path Traversal ------------------------------ #
+
+1. Faça login com a conta bob@example.com:password2 e entre na página de produtos
+
+2. Tente acessar o link abaixo:
+
+http://localhost:3000/images?name=../../secretFile.txt
+
+
+- Se não aparecer o conteúdo do arquivo com a senha do usuário, está resolvido!
+
+
+# ----------------------------------- CSRF ----------------------------------- #
+
+1. Faça login com a conta bob@example.com:password2 e entre na página de produtos
+
+2. Abra o arquivo csrf.html no browser
+
+- Se não direcionar para a conclusão da compra com a mensagem "Order Placed", está resolvido!
